@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## 0.11.4.1
+
+### Changes
+
+* Local gem only: removes gitlab as a dependency. There is no gitlab support whatsoever in this gem fork.
+* Local gem only: removes bitbucket as a dependency. There is no bitbucket support whatsoever in this gem fork.
+
 ## 0.11.4
 
 ### Changes

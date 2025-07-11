@@ -15,19 +15,6 @@ module Pronto
         'web_endpoint' => 'https://github.com/',
         'review_type' => 'request_changes'
       },
-      'gitlab' => {
-        'slug' => nil,
-        'api_private_token' => nil,
-        'api_endpoint' => 'https://gitlab.com/api/v4'
-      },
-      'bitbucket' => {
-        'slug' => nil,
-        'username' => nil,
-        'password' => nil,
-        'api_endpoint' => nil,
-        'auto_approve' => false,
-        'web_endpoint' => 'https://bitbucket.org/'
-      },
       'text' => {
         'format' => '%{color_location} %{color_level}: %{msg}'
       },

@@ -1,3 +1,5 @@
+require 'yaml'
+
 module Pronto
   describe ConfigFile do
     let(:config_file) { described_class.new }
@@ -31,15 +33,6 @@ module Pronto
               'api_endpoint' => 'https://api.github.com/',
               'web_endpoint' => 'https://github.com/',
               'review_type' => 'request_changes'
-            }
-          )
-        end
-        it do
-          should include(
-            'gitlab' => {
-              'slug' => nil,
-              'api_private_token' => nil,
-              'api_endpoint' => 'https://gitlab.com/api/v4'
             }
           )
         end

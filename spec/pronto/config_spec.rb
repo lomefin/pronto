@@ -79,20 +79,6 @@ module Pronto
       end
     end
 
-    describe '#gitlab_slug' do
-      subject { config.gitlab_slug }
-
-      context 'from env variable' do
-        before { stub_const('ENV', 'PRONTO_GITLAB_SLUG' => 'rick/deckard') }
-        it { should == 'rick/deckard' }
-      end
-
-      context 'from config hash' do
-        let(:config_hash) { { 'gitlab' => { 'slug' => 'ruby/ruby' } } }
-        it { should == 'ruby/ruby' }
-      end
-    end
-
     {
       max_warnings: {
         default_value: nil
