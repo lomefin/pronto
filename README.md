@@ -1,6 +1,7 @@
 # Pronto
 
-[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)
+**Note:** this is a specific version (0.11.4.1) that solely removes the dependency to gitlab and bitbucket. It does not have a modular approach so it won't me
+merged upstream.
 [![Build Status](https://github.com/prontolabs/pronto/actions/workflows/specs.yml/badge.svg)](https://github.com/prontolabs/pronto/actions/workflows/specs.yml)
 [![Code Climate](https://codeclimate.com/github/prontolabs/pronto.svg)](https://codeclimate.com/github/prontolabs/pronto)
 
